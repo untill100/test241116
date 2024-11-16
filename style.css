@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+#thumbnail {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 840px;
+}
+
+img {
+    width: 100%;
+}
+
+#zoom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 255, 0);
+}
+
+#result {
+    position: relative;
+}
